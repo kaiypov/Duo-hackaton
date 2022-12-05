@@ -1,0 +1,74 @@
+{
+  "instagram": [
+    {
+      "postTitle": "Mersedes-Benz S-Class",
+      "postSig": "3000сом",
+      "postImg": "https://imgd.aeplcdn.com/664x374/n/cw/ec/48067/s-class-exterior-right-front-three-quarter-3.jpeg?q=75",
+      "postVies": 292,
+      "postLike": 9,
+      "postCom": 6,
+      "postPlane": 8,
+      "id": 1
+    },
+    {
+      "postTitle": "Honda Accord 2019",
+      "postSig": "2500 сом",
+      "postImg": "https://imgd.aeplcdn.com/0x0/cw/ec/21613/Honda-Accord-Right-Front-Three-Quarter-82683.jpg?v=201711021421",
+      "postVies": 217,
+      "postLike": 6,
+      "postCom": 4,
+      "postPlane": 2,
+      "id": 2
+    },
+    {
+      "postTitle": "Tayota Camry 75 2020",
+      "postSig": "3500сом",
+      "postImg": "https://imageauto.kz/wp-content/uploads/2021/10/Camry-75.png",
+      "postVies": 812,
+      "postLike": 2,
+      "postCom": 4,
+      "postPlane": 5,
+      "id": 3
+    },
+    {
+      "postTitle": "Lexus 600 (2022)",
+      "postSig": "100$",
+      "postImg": "https://toyotaassets.scene7.com/is/image/toyota/Lexus-LX-600-style-selector-nori-green-pearl-visualizer-750x471-LEX-LXG-MY22-0081.04?wid=750&hei=471&fmt=png-alpha",
+      "postVies": 947,
+      "postLike": 24,
+      "postCom": 0,
+      "postPlane": 8,
+      "id": 4
+    },
+    {
+      "postTitle": "Mersedes-Benz Gelendvagen",
+      "postSig": "150$",
+      "postImg": "https://img4.goodfon.ru/wallpaper/nbig/2/e1/mercedes-g-class-mersedes-brabus-gelendvagen-w463.jpg",
+      "postVies": 538,
+      "postLike": 19,
+      "postCom": 16,
+      "postPlane": 10,
+      "id": 5
+    },
+    {
+      "postTitle": "Honda Civic 2019",
+      "postSig": " 4000сом",
+      "postImg": "https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2021HOC020061_1280_01",
+      "postVies": 636,
+      "postLike": 5,
+      "postCom": 14,
+      "postPlane": 6,
+      "id": 6
+    },
+    {
+      "postTitle": "Mazda 6 2017",
+      "postSig": "Цена: 2000сом",
+      "postImg": "https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2021MAC140031_1280_01",
+      "postVies": 614,
+      "postLike": 0,
+      "postCom": 0,
+      "postPlane": 0,
+      "id": 7
+    }
+  ]
+}

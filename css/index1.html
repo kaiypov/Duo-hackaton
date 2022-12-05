@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CarSharing</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar bg-light">
+      <div id="nav-bar" class="container-fluid">
+        <div class="logo">
+          <img
+            width="50px"
+            src="https://img.icons8.com/ios/2x/car-roof-box.png"
+            alt=""
+          />
+          <a class="navbar-brand">CarSharing</a>
+        </div>
+        <div class="links">
+          <a href="./index1.html">Главная</a>
+          <a href="../index.html">Автопарк</a>
+          <a href="../index2.html">О нас</a>
+        </div>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            id="inpSearch"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" id="btnSearch" type="submit">
+            Искать
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- navbar  end -->
+    <div class="container">
+      <div class="main-text">
+        <h2 class="h2-1">
+          Откройте для себя преимущества каршеринга с нашей компанией CarSharing
+        </h2>
+        <p>
+          Получите автомобиль на любое время и на любом расстоянии. Почувствуйте
+          комфорт и удобство
+        </p>
+      </div>
+
+      <div class="carusel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                width="1000px"
+                src="https://w-dog.ru/wallpapers/1/2/533208077010285/rolls-royce-prizrak-bentley-kontinentalnyj-gtc-kabriolet-mclaren-mp4-12c-lamborghini-aventador-lp700-4-mercedes-benz-g-63-amg-ferrari-italia-pauk-vorsteiner-dzhovanna-kolesa-tyuning-avtomobili.jpg"
+                class="d-block w-1400px"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                width="1000px"
+                src="https://status-media.com/wp-content/uploads/2019/07/Balt-lizing-01-423.jpg"
+                class="d-block w-1400px"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                width="1000px"
+                src="https://www.autostat.ru/application/includes/blocks/big_photo/images/cache/000/063/692/04e650ae-670-0.jpg"
+                class="d-block w-1400px"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! footer start -->
+    <footer>
+      <div class="copyright">
+        <div class="footer-container copyright-wrap">
+          <div id="footer" class="copyright-item">
+            <div><p>© 2022 - CarSharing</p></div>
+            <div class="svg-icons">
+              <a href="https://www.instagram.com/nurdangram_/"
+                ><img width="40px" src="./svg/instagram.svg" alt=""
+              /></a>
+              <a href=""
+                ><img width="40px" src="./svg/telegram.svg" alt=""
+              /></a>
+              <a href=""><img width="40px" src="./svg/twitter.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--! footer end -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
